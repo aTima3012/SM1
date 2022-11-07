@@ -4,7 +4,7 @@ public class Main {
         SalesManager salesManager = new SalesManager(new long[]{5, 6, 8, 10, 11});
         System.out.println(salesManager.max());
 
-        int cutAverage = salesManager.cutAverage();
+        long cutAverage = salesManager.cutAverage();
         System.out.println("Обрезанное среднее объема продаж:" + cutAverage);
     }
 }
